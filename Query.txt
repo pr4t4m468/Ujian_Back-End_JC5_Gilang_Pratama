@@ -1,0 +1,6 @@
+1.
+2.
+3.
+4.SELECT nama_nasabah AS Nama, COUNT(tunai) AS TotalTunai 
+FROM transaksi GROUP BY tunai
+5.
